@@ -9,6 +9,7 @@ import ServicesMain from "./components/ServicesMain.jsx";
 import WebDev from "./components/WebDev.jsx";
 import AppDev from "./components/AppDev.jsx";
 import Consulting from "./components/Consulting.jsx";
+import Footer from "./components/Footer.jsx";
 
 
 const App = () => {
@@ -82,6 +83,7 @@ const App = () => {
                     </Routes>
                 </div>
             </div>
+            <Footer />
 
         </>
     );
